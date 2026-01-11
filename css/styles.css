@@ -120,7 +120,12 @@ h1 {
   background: #404bbf;
 }
 
-#portfolio h3 {
+.banking-h,
+.cashless-h,
+.meditation-h,
+.taxi-h,
+.illustrations-h,
+.courses-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -128,7 +133,12 @@ h1 {
   color: #2e2f42;
 }
 
-#portfolio p {
+.banking-p,
+.cashless-p,
+.meditation-p,
+.taxi-p,
+.illustrations-p,
+.courses-p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -136,7 +146,10 @@ h1 {
   color: #434455;
 }
 
-.features h3 {
+.features-strategy,
+.features-punctuality,
+.features-diligence,
+.features-tecnologies {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -144,8 +157,10 @@ h1 {
   color: #2e2f42;
 }
 
-.features p {
-  font-weight: 400;
+.strategy-p,
+.punctuality-p,
+.diligence-p,
+.tecnologies-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -165,11 +180,17 @@ h2 {
   background: #f4f4fd;
 }
 
-.team li {
+.mark-li,
+.tom-li,
+.daniel-li,
+.camila-li {
   background: #fff;
 }
 
-.team h3 {
+.mark-h,
+.tom-h,
+.daniel-h,
+.camila-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -178,7 +199,10 @@ h2 {
   color: #2e2f42;
 }
 
-.team p {
+.mark-p,
+.tom-p,
+.daniel-p,
+.camila-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
