@@ -4,11 +4,9 @@ body {
   color: #2e2f42;
 }
 
-a:active {
-  color: inherit;
-}
-
-nav a {
+.nav-studio,
+.nav-portfolio,
+.nav-contacts {
   text-decoration: none;
   font-weight: 500;
   font-size: 16px;
@@ -17,19 +15,26 @@ nav a {
   color: #2e2f42;
 }
 
-nav a:hover {
+.nav-studio :hover,
+.nav-portfolio :hover,
+.nav-contacts :hover {
   color: #404bbf;
 }
 
-nav a:focus {
+.nav-studio :focus,
+.nav-portfolio :focus,
+.nav-contacts :focus {
   color: #404bbf;
 }
 
-nav a:active {
+.nav-studio :active,
+.nav-portfolio :active,
+.nav-contacts :active {
   color: #404bbf;
 }
 
-address a {
+.mail,
+.tel {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
@@ -37,11 +42,19 @@ address a {
   color: #434455;
   font-style: normal;
 }
-address a:hover {
+
+.mail:hover,
+.tel:hover {
   color: #404bbf;
 }
 
-address a:focus {
+.mail:focus,
+.tel:focus {
+  color: #404bbf;
+}
+
+.mail:active,
+.tel:active {
   color: #404bbf;
 }
 
@@ -56,14 +69,16 @@ ul {
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
-a .web {
-  color: #4d5ae5; /* колір для Web */
+.web-h {
+  color: #4d5ae5;
 }
 
-a .studio {
-  color: #2e2f42; /* колір для Studio */
+.studio-h {
+  color: #2e2f42;
+  text-decoration: none;
 }
 
 .studio-main {
@@ -99,6 +114,22 @@ h1 {
 .button:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
+}
+
+.feautres h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.feautres p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 h2 {
@@ -139,11 +170,11 @@ h2 {
   background: #2e2f42;
 }
 
-a .web-f {
-  color: #4d5ae5; /* колір для Web у футері */
+.web-f {
+  color: #4d5ae5;
 }
-a .studio-f {
-  color: #f4f4fd; /* колір для Studio у футері */
+.studio-f {
+  color: #f4f4fd;
 }
 
 .footer-text {
